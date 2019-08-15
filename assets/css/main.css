@@ -3,3 +3,19 @@
   text-decoration: underline;
   color: crimson;
 }
+
+.date {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+#image-div {
+  float: right;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+/* body {
+  position: relative;
+} */
