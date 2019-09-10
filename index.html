@@ -7,16 +7,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/main.css" />
     <script src="assets/scripts/main.js"></script>
+    <script src="assets/scripts/api.js"></script>
+    <script src="assets/scripts/localStorageManager.js"></script>
   </head>
   <body>
       <div id="image-div">
           Card Preview
       </div>
     <div class="date">8-1</div>
+    <span class=card data-name='ajlsga'>Fake Card To test failures</span>
+
     <ul>
       Main:
       <li>
-        <span class="card" data-name="Dreadhorde Arcanist">
+        <span class="card" data-name="Dreadhorde Arcanist" data-set="">
           2 Dreadhorde Arcanist
         </span>
       </li>
@@ -91,12 +95,12 @@
         </span>
       </li>
       <li>
-        <span class="card" data-name="Bloodstained Mire">
+        <span class="card" data-name="Bloodstained Mire" data-set="KTK">
           3 Bloodstained Mire
         </span>
       </li>
       <li>
-        <span class="card" data-name="Bloodstained Mire">
+        <span class="card" data-name="Fiery Islet">
           1 Fiery Islet
         </span>
       </li>
@@ -111,7 +115,7 @@
         </span>
       </li>
       <li>
-        <span class="card" data-name="Polluted Delta">
+        <span class="card" data-name="Scalding Tarn">
           1 Scalding Tarn
         </span>
       </li>
@@ -121,7 +125,7 @@
         </span>
       </li>
       <li>
-        <span class="card" data-name="Wooded Foothill">
+        <span class="card" data-name="Wooded Foothills">
           2 Wooded Foothill
         </span>
       </li>
@@ -474,7 +478,7 @@
       >
       with something else.
     </div>
-    <div class="date">8-14</div>
+    <div class="date">8-16</div>
     <p>
       Deck Changes: 
       <div class=sideboard>Main
@@ -501,5 +505,15 @@
       ></div>
       </div>
     </p>
+    <p>The changes make the deck a little less all in on the <span class=card data-name='Lightning Skelemental'>Lightning Skelemental</span> plan and gives us some nice bodies in <span class=card data-name='Gurmag Angler'>Gurmags</span>. </p>
+
+    <div class=round>Round: 1 Vs Azorious Control </div>
+    <p><span class=card data-name='Lightning Skelemental'>Skelemental</span> really shines here. They have very few ways to deal with 6/1 haste creatures.</p>
+    <div class=sideboard>Sideboard
+    <div class=sideboard-in>In: <span class=card data-name='Shenanigans' data-set='MH1'>Shenanigans</span>, <span class=card data-name='By Force'>By Force</span> </div>
+    <div class=sideboard-out>Out:<span class=card data-name='Fatal Push'>2x Fatal Push</span></div>
+    </div>
+    <p>The sideboard was wrong here, they are white so if they were going to bring in graveyard hate they'd bring in <span class=card data-name='Rest in Peace'>Rest in Peace</span> and not artifact based hate. It's also likely that we don't care about graveyard hate in this matchup enough to bring them in. <span class=card data-name='Dreadbore'>Dreadbore</span> and <span class=card data-name='Engineered Explosives'>Engineered Explosives</span> would be a better option. Overall this matchup felt pretty good.</p>
+    <div class="result">Won 1-0</div>
   </body>
 </html>
